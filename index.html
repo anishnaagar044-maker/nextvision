@@ -266,7 +266,20 @@
       box-shadow: 0 5px 15px rgba(0,0,0,0.3);
       z-index: 999;
     }
+.gallery{
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+}
 
+.gallery img{
+  width:100%;
+  max-width:800px;
+  border-radius:15px;
+  box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+
+@media (max-width: 768px) {
     @media (max-width: 768px) {
       .nav {
         flex-direction: column;
